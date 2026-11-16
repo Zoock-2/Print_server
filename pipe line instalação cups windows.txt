@@ -1,0 +1,43 @@
+- win + r 
+- optionalfeatures
+- ativar windows Subsistema do windows para linux e plataforma de maquina Virtual
+- wsl --install Ubuntu
+- login e senha
+sudo apt update
+sudo apt install cups printer-driver-gutenprint
+sudo usermod -aG lpadmin $USER
+sudo cupsctl --remote-admin --remote-any --share-printers
+#caso precise liberar netsh interface portproxy add v4tov4 listenport=631 listenaddress=0.0.0.0 connectport=631 connectaddress=172.31.225.55
+sudo apt install python3-venv
+pip install -r requirements.txt
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo -u postgres psql
+CREATE USER felipe WITH PASSWORD '123456';
+ALTER USER felipe CREATEDB;
+CREATE DATABASE prints OWNER felipe;
+
+CREATE TABLE IF NOT EXISTS print_jobs (
+    job_id INTEGER PRIMARY KEY,
+    username VARCHAR(100),
+    nome VARCHAR(255),
+    setor VARCHAR(150),
+    document_name TEXT,
+    file_path TEXT,
+    created_at TIMESTAMP WITH TIME ZONE,
+    pages INTEGER,
+    printer_name VARCHAR(150)
+);
+
+sudo chmod 777 /var/spool/cups
+sudo apt update && sudo apt install acl
+sudo setfacl -m u:suporte:rx /var/cache/cups
+
+sudo setfacl -d -m u:suporte:r /var/cache/cups
+sudo setfacl -m u:suporte:r /var/cache/cups/job.cache
+
+ip config 
+
+impressoras na vede via ip
+appsocket/hp Handler
+socket://192.168.51.31:9100 sample

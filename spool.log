@@ -1,0 +1,49 @@
+2026-11-16 14:53:01,190 - INFO - === Iniciando processamento do spool ===
+2026-11-16 14:53:01,516 - INFO - Usuários carregados: 101
+2026-11-16 14:53:01,517 - WARNING - Arquivo job.cache não encontrado.
+2026-11-16 14:53:01,517 - INFO - Nenhum job para processar.
+2026-11-16 14:53:01,517 - INFO - === Processamento do spool encerrado ===
+2026-11-16 14:53:51,917 - INFO - === Iniciando processamento do spool ===
+2026-11-16 14:53:52,262 - INFO - Usuários carregados: 101
+2026-11-16 14:53:52,262 - WARNING - Arquivo job.cache não encontrado.
+2026-11-16 14:53:52,263 - INFO - Nenhum job para processar.
+2026-11-16 14:53:52,263 - INFO - === Processamento do spool encerrado ===
+2026-11-16 14:54:05,426 - INFO - === Iniciando processamento do spool ===
+2026-11-16 14:54:05,697 - INFO - Usuários carregados: 101
+2026-11-16 14:54:05,697 - WARNING - Arquivo job.cache não encontrado.
+2026-11-16 14:54:05,697 - INFO - Nenhum job para processar.
+2026-11-16 14:54:05,697 - INFO - === Processamento do spool encerrado ===
+2026-11-16 14:54:16,714 - INFO - === Iniciando processamento do spool ===
+2026-11-16 14:54:16,947 - INFO - Usuários carregados: 101
+2026-11-16 14:54:16,947 - WARNING - Arquivo job.cache não encontrado.
+2026-11-16 14:54:16,947 - INFO - Nenhum job para processar.
+2026-11-16 14:54:16,948 - INFO - === Processamento do spool encerrado ===
+2026-11-16 14:55:29,210 - INFO - === Iniciando processamento do spool ===
+2026-11-16 14:55:29,658 - INFO - Usuários carregados: 101
+2026-11-16 14:55:29,658 - WARNING - Arquivo job.cache não encontrado.
+2026-11-16 14:55:29,658 - INFO - Nenhum job para processar.
+2026-11-16 14:55:29,658 - INFO - === Processamento do spool encerrado ===
+2026-11-16 14:57:28,298 - INFO - === Iniciando processamento do spool ===
+2026-11-16 14:57:28,776 - INFO - Usuários carregados: 101
+2026-11-16 14:57:28,776 - WARNING - Arquivo job.cache não encontrado.
+2026-11-16 14:57:28,777 - INFO - Nenhum job para processar.
+2026-11-16 14:57:28,777 - INFO - === Processamento do spool encerrado ===
+2026-11-16 15:00:12,640 - INFO - === Iniciando processamento do spool ===
+2026-11-16 15:00:13,181 - INFO - Usuários carregados: 101
+2026-11-16 15:00:13,181 - WARNING - Arquivo job.cache não encontrado.
+2026-11-16 15:00:13,181 - INFO - Nenhum job para processar.
+2026-11-16 15:00:13,181 - INFO - === Processamento do spool encerrado ===
+2026-11-16 15:03:53,109 - INFO - === Iniciando processamento do spool ===
+2026-11-16 15:03:53,738 - INFO - Usuários carregados: 101
+2026-11-16 15:03:53,739 - INFO - Jobs encontrados no cache: 1
+2026-11-16 15:03:53,740 - WARNING - Arquivo page_log não encontrado.
+2026-11-16 15:03:53,840 - INFO - Iniciando processamento de 1 jobs.
+2026-11-16 15:03:54,157 - INFO - Processamento finalizado. Jobs analisados: 1 | Novos registros inseridos: 1
+2026-11-16 15:03:54,158 - INFO - === Processamento do spool encerrado ===
+2026-11-16 15:04:24,783 - INFO - === Iniciando processamento do spool ===
+2026-11-16 15:04:25,024 - INFO - Usuários carregados: 101
+2026-11-16 15:04:25,025 - INFO - Jobs encontrados no cache: 1
+2026-11-16 15:04:25,025 - WARNING - Arquivo page_log não encontrado.
+2026-11-16 15:04:25,073 - INFO - Iniciando processamento de 1 jobs.
+2026-11-16 15:04:25,076 - INFO - Processamento finalizado. Jobs analisados: 1 | Novos registros inseridos: 0
+2026-11-16 15:04:25,077 - INFO - === Processamento do spool encerrado ===

@@ -1,0 +1,27 @@
+2026-11-16 15:15:08,073 - ERROR - Erro geral na correção: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "suporte" does not exist
+Traceback (most recent call last):
+  File "/home/suporte/impressora/corrigir_registros.py", line 110, in corrigir_registros
+    conn = psycopg2.connect(**DB_CONFIG)
+  File "/home/suporte/impressora/myvenv/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "suporte" does not exist
+
+2026-11-16 15:15:35,533 - ERROR - Erro geral na correção: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "suporte" does not exist
+Traceback (most recent call last):
+  File "/home/suporte/impressora/corrigir_registros.py", line 110, in corrigir_registros
+    conn = psycopg2.connect(**DB_CONFIG)
+  File "/home/suporte/impressora/myvenv/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "suporte" does not exist
+
+2026-11-16 15:17:39,574 - ERROR - Erro geral na correção: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "suporte" does not exist
+Traceback (most recent call last):
+  File "/home/suporte/impressora/corrigir_registros.py", line 110, in corrigir_registros
+    conn = psycopg2.connect(**DB_CONFIG)
+  File "/home/suporte/impressora/myvenv/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "suporte" does not exist
+
+2026-11-16 15:18:05,659 - INFO - === INICIANDO CORREÇÃO ===
+2026-11-16 15:18:05,662 - INFO - Registros encontrados para correção: 0
+2026-11-16 15:18:05,663 - INFO - Finalizado. Encontrados=0, Corrigidos=0, Ignorados=0, Erros=0
